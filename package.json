@@ -7,6 +7,8 @@
   },
   "dependencies": {
     "express": "3.4.7",
-    "jade": "*"
+    "jade": "*",
+    "raspicam": "~0.2.13",
+    "nodemailer": "~0.5.15"
   }
 }
