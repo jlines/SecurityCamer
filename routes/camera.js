@@ -28,7 +28,7 @@ exports.sendImage = function(req, res){
 
 //listen for the "read" event triggered when each new photo/video is saved
 camera.on("read", function(err, filename){
-
+    console.log(JSON.stringify(filename));
     var mailOptions = {
         from: "jlines <jlines@blurdybloop.com>", // sender address
         to: "commanderjason@gmail.com", // list of receivers
